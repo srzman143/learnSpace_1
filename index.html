@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LearnSpace helps you discover online courses and develop career-focused skills.">
+    <title>LearnSpace | Learn Without Limits</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="about" href="about.html">
+    <link rel="learn" href="learning-paths.html">
+    <link rel="course" href="courses.html">
+    
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="site-nav">
+    <nav class="container nav-inner" aria-label="Main navigation">
+        <a href="index.html" class="brand">
+            <span class="brand-icon"><i class="bi bi-mortarboard-fill"></i></span>
+            LearnSpace
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+        </label>
+
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="courses.html">Explore Courses</a>
+            <a href="learning-paths.html">Learning Paths</a>
+            <a href="about.html">About</a>
+            <a href="courses.html" class="btn btn-primary-custom">Get Started <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="hero-badge">
+                        <i class="bi bi-stars"></i> Learn Something New Every Day
+                    </span>
+
+                    <h1>Unlock Your <span class="text-purple">Potential</span> with LearnSpace.</h1>
+
+                    <p>
+                        Build in-demand skills, explore exciting subjects, and
+                        move closer to your goals with curated learning resources
+                        and guided career paths.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#popular-courses" class="btn btn-primary-custom">
+                            Explore Courses <i class="bi bi-arrow-up-right"></i>
+                        </a>
+                        <a href="learning-paths.html" class="btn btn-outline-custom">
+                            <i class="bi bi-play-circle"></i> Start Learning
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-4 mt-4 muted small">
+                        <span><i class="bi bi-check-circle-fill text-purple"></i> Flexible learning</span>
+                        <span><i class="bi bi-check-circle-fill text-purple"></i> Career-focused skills</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="dashboard">
+                            <div class="dashboard-top">
+                                <div>
+                                    <small>Your learning dashboard</small>
+                                    <h3 class="h5 fw-bold mt-1 mb-0">Keep growing!</h3>
+                                </div>
+                                <span class="brand-icon"><i class="bi bi-lightning-charge-fill"></i></span>
+                            </div>
+
+                            <div class="p-3 rounded-4 mb-3" style="background:#f5f1ff">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <strong>Weekly progress</strong>
+                                    <strong class="text-purple">75%</strong>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" style="width:75%"></div>
+                                </div>
+                                <small class="muted d-block mt-2">You're making great progress.</small>
+                            </div>
+
+                            <strong>Continue learning</strong>
+
+                            <div class="mini-course">
+                                <div class="mini-icon"><i class="bi bi-code-slash"></i></div>
+                                <div class="flex-grow-1">
+                                    <strong class="d-block">Web Development</strong>
+                                    <small class="muted">Lesson 06 · HTML & CSS</small>
+                                </div>
+                                <i class="bi bi-play-circle text-purple fs-4"></i>
+                            </div>
+
+                            <div class="mini-course">
+                                <div class="mini-icon"><i class="bi bi-palette"></i></div>
+                                <div class="flex-grow-1">
+                                    <strong class="d-block">UI/UX Design</strong>
+                                    <small class="muted">Lesson 03 · Design basics</small>
+                                </div>
+                                <i class="bi bi-play-circle text-purple fs-4"></i>
+                            </div>
+                        </div>
+
+                        <div class="float-card float-one">
+                            <i class="bi bi-trophy-fill text-warning"></i> Keep it up!
+                        </div>
+                        <div class="float-card float-two">
+                            <i class="bi bi-book-half text-purple"></i> Learn at your pace
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and categories -->
+    <section id="discover" class="section-soft">
+        <div class="container text-center">
+            <span class="section-label">Discover your next skill</span>
+            <h2 class="section-title mt-3">What Do You Want to Learn Today?</h2>
+            <p class="section-description">Explore topics, discover new interests, and find resources to start learning.</p>
+
+            <form class="search-box" action="courses.html" method="get">
+                <i class="bi bi-search"></i>
+                <input type="search" name="q" placeholder="Search courses, skills, or topics..." aria-label="Search courses">
+                <button class="btn btn-primary-custom" type="submit">Search</button>
+            </form>
+
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a class="category-chip" href="https://www.youtube.com/results?search_query=web+development+tutorials" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-code-slash"></i> Development
+                </a>
+                <a class="category-chip" href="https://www.youtube.com/results?search_query=UI+UX+design+tutorials" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-palette"></i> Design
+                </a>
+                <a class="category-chip" href="https://www.youtube.com/results?search_query=data+science+tutorials" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-bar-chart-line"></i> Data Science
+                </a>
+                <a class="category-chip" href="https://www.youtube.com/results?search_query=business+entrepreneurship+tutorials" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-briefcase"></i> Business
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular courses -->
+    <section id="popular-courses">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-5">
+                <div>
+                    <span class="section-label">Learn something valuable</span>
+                    <h2 class="section-title mt-3 mb-0">Popular Courses</h2>
+                    <p class="muted mt-2 mb-0">Explore subjects that help you build practical skills.</p>
+                </div>
+                <a href="courses.html" class="btn btn-outline-custom">View All Courses <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <article class="course-card">
+                        <div class="course-art"><i class="bi bi-code-square"></i></div>
+                        <div class="course-body">
+                            <div class="d-flex justify-content-between align-items-center gap-2 mb-3">
+                                <span class="tag">Development</span>
+                                <span class="muted small">Beginner</span>
+                            </div>
+                            <h3>Complete Web Development</h3>
+                            <p>Learn HTML, CSS, Bootstrap, and JavaScript fundamentals while building websites.</p>
+                            <div class="course-meta">
+                                <span><i class="bi bi-clock"></i> 12 Weeks</span>
+                                <span><i class="bi bi-book"></i> Web Skills</span>
+                            </div>
+                            <a href="https://www.youtube.com/results?search_query=complete+web+development+course" target="_blank" rel="noopener noreferrer" class="btn btn-outline-custom mt-3">
+                                View Course <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="course-card">
+                        <div class="course-art design"><i class="bi bi-bezier2"></i></div>
+                        <div class="course-body">
+                            <div class="d-flex justify-content-between align-items-center gap-2 mb-3">
+                                <span class="tag">Design</span>
+                                <span class="muted small">Beginner</span>
+                            </div>
+                            <h3>UI/UX Design Fundamentals</h3>
+                            <p>Discover wireframing, prototyping, user research, and beautiful interface design.</p>
+                            <div class="course-meta">
+                                <span><i class="bi bi-clock"></i> 8 Weeks</span>
+                                <span><i class="bi bi-palette"></i> Creative Skills</span>
+                            </div>
+                            <a href="https://www.youtube.com/results?search_query=UI+UX+design+full+course" target="_blank" rel="noopener noreferrer" class="btn btn-outline-custom mt-3">
+                                View Course <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="course-card">
+                        <div class="course-art data"><i class="bi bi-graph-up-arrow"></i></div>
+                        <div class="course-body">
+                            <div class="d-flex justify-content-between align-items-center gap-2 mb-3">
+                                <span class="tag">Data Science</span>
+                                <span class="muted small">Intermediate</span>
+                            </div>
+                            <h3>Data Science Essentials</h3>
+                            <p>Explore data analysis, visualization, and essential data science concepts.</p>
+                            <div class="course-meta">
+                                <span><i class="bi bi-clock"></i> 10 Weeks</span>
+                                <span><i class="bi bi-bar-chart"></i> Data Skills</span>
+                            </div>
+                            <a href="https://www.youtube.com/results?search_query=data+science+complete+course" target="_blank" rel="noopener noreferrer" class="btn btn-outline-custom mt-3">
+                                View Course <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning path preview -->
+    <section class="section-soft">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="section-label">Your next chapter</span>
+                    <h2 class="section-title mt-3">Learn with a Clear Direction.</h2>
+                    <p class="muted mt-3">Turn your interests into a structured learning journey with step-by-step roadmaps for different careers.</p>
+                </div>
+                <div class="col-lg-5 text-lg-end">
+                    <a href="learning-paths.html" class="btn btn-primary-custom">
+                        Explore Learning Paths <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section>
+        <div class="container">
+            <div class="cta-section">
+                <h2>Your Next Skill Starts Here.</h2>
+                <p>Take the first step today. Discover a subject, practice your skills, and build your future one lesson at a time.</p>
+                <a href="courses.html" class="btn btn-light">Start Learning Today <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <a href="index.html" class="brand">
+                    <span class="brand-icon"><i class="bi bi-mortarboard-fill"></i></span>
+                    LearnSpace
+                </a>
+                <p class="mt-3">Learn new skills, explore your potential, and build your future with LearnSpace.</p>
+            </div>
+
+            <div class="col-6 col-lg-2 col-md-6">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="courses.html">Explore Courses</a>
+                    <a href="learning-paths.html">Learning Paths</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-md-6">
+                <h3>Categories</h3>
+                <div class="footer-links">
+                    <a href="https://www.youtube.com/results?search_query=web+development" target="_blank" rel="noopener noreferrer">Development</a>
+                    <a href="https://www.youtube.com/results?search_query=UI+UX+design" target="_blank" rel="noopener noreferrer">Design</a>
+                    <a href="https://www.youtube.com/results?search_query=data+science" target="_blank" rel="noopener noreferrer">Data Science</a>
+                    <a href="https://www.youtube.com/results?search_query=business+entrepreneurship" target="_blank" rel="noopener noreferrer">Business</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h3>Resources</h3>
+                <div class="footer-links">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube Tutorials</a>
+                    <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">Learning Guides</a>
+                    <a href="mailto:hello@learnspace.example">Contact</a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+            <span>© 2026 LearnSpace. All rights reserved.</span>
+            <span>Learn today. Grow tomorrow.</span>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
